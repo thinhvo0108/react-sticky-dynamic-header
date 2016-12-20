@@ -37,6 +37,11 @@ class MyApp extends React.Component {
 - `effectDuration: Number (miliseconds, default: 600)` - Duration for the above fading effect
 - `useHeadersDifference: Boolean (default: "false")` -  Whether or not the header will change its inner content when scroll-position just reaches the difference in height between the 2 components (or the changing will take place after the first header component is scrolled out of view))
 
+## TODO
+- Add Tests
+- Write better instruction
+- Create Demo page
+
 ## Thank you
 
 - [React NPM Boilerplate](https://github.com/juliancwirko/react-npm-boilerplate)
