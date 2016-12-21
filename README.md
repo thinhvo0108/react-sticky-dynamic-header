@@ -4,7 +4,7 @@ React component that makes a header sticky with different content before and aft
 ## Install
 
 ```bash
-npm install react-sticky-dynamic-header
+npm install --save react-sticky-dynamic-header
 ```
 
 ## Usage
