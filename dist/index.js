@@ -1,8 +1,8 @@
 (function (global, factory) {
     if (typeof define === "function" && define.amd) {
-        define(['exports', 'react', 'react-addons-css-transition-group'], factory);
+        define(['exports', 'react', 'react-transition-group/CSSTransitionGroup'], factory);
     } else if (typeof exports !== "undefined") {
-        factory(exports, require('react'), require('react-addons-css-transition-group'));
+        factory(exports, require('react'), require('react-transition-group/CSSTransitionGroup'));
     } else {
         var mod = {
             exports: {}
